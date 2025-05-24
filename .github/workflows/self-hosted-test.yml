@@ -6,7 +6,7 @@ on:
 
 jobs:
   test-runner:
-    runs-on: self-hosted
+    runs-on: [self-hosted, my-laptop]
     steps:
       - name: Say Hello
         run: echo "✅ Hello from the self-hosted Windows runner!"
